@@ -3,9 +3,10 @@ import java.awt.*;
 
 public class Lab07 extends Applet{
     public void paint(Graphics g){
+        Backgorund.drawNightSky(g);
         Backgorund.drawMountain1(g);
         Backgorund.drawGround(g);
-        Backgorund.drawNightSky(g);
+
 
         Star.drawShootingStar(g);
         Star.drawFlameI(g);
